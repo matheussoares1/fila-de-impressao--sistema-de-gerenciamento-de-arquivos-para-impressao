@@ -1,0 +1,31 @@
+/* styles_login.css */
+
+/* Centraliza o card na tela */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+.card {
+    border-radius: 0.75rem; /* Bordas arredondadas do card */
+    border: none;
+}
+
+/* Garante que o input-group-text tenha a mesma altura e cor de fundo do input */
+.input-group-text {
+    background-color: #ffffff !important;
+}
+
+/* Remove a borda padrão do input-group-text no lado do input */
+.input-group-text.border-end-0 {
+    border-right: 0 !important;
+}
+
+/* Remove a borda esquerda do input e adiciona um padding lateral */
+.form-control.border-start-0 {
+    border-left: 0 !important;
+    padding-left: 0.5rem; /* Ajusta o padding para o texto não colar no ícone */
+}

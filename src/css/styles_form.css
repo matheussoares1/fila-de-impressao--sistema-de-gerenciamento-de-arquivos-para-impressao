@@ -1,0 +1,40 @@
+/* styles_form.css */
+
+/* Estilo para o corpo e card do formulário */
+body {
+    background-color: #f8f9fa !important;
+}
+
+.card {
+    border-radius: 0.75rem; /* Bordas arredondadas do card */
+    border: none;
+}
+
+/* Estilo para a área de upload (Upload do Arquivo) */
+.upload-area {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-style: dashed !important; /* Borda tracejada */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.upload-area:hover {
+    background-color: #e9ecef !important; /* Efeito hover */
+}
+
+/* Garante que o input file fique invisível mas clicável em toda a área */
+.upload-area input[type="file"] {
+    cursor: pointer;
+}
+
+/* Apenas um ajuste para o input type file para garantir que ele cobre toda a área */
+.upload-area input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Garante que ele fique acima dos elementos visuais */
+}

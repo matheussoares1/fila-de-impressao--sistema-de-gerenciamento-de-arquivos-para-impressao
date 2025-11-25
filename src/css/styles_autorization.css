@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Remove a sombra e arredonda mais o card da nav */
+.navbar .btn-light {
+    box-shadow: none;
+    border-radius: 0.5rem; /* Levemente mais arredondado */
+}
+
+/* Garante a cor de fundo do body */
+body {
+    background-color: #f8f9fa !important; /* Cor exata do bg-light do Bootstrap */
+}
+
+/* Estilo para os cards principais */
+.card {
+    border-radius: 0.75rem; /* Aumenta um pouco o arredondamento dos cantos */
+    border: none;
+}
+
+/* Ajusta o estilo do cabeçalho de navegação */
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Ajuste o tamanho do ícone no centro da tela para 'Nenhuma solicitação encontrada' */
+.fa-file-lines {
+    color: #ced4da !important; /* Uma cor cinza claro para o ícone */
+}
